@@ -1,0 +1,18 @@
+# settings
+
+(GimpGegl-gegl-color-exchange-config "2021-12-29 11:14:33"
+    (time 1640776473)
+    (from-color (color-rgba 0.2196078431372549 0.22352941176470589 0.2196078431372549 1))
+    (to-color (color-rgba 0 0 0 0))
+    (red-threshold 0)
+    (green-threshold 0)
+    (blue-threshold 0))
+(GimpGegl-gegl-color-exchange-config "2021-12-29 11:13:09"
+    (time 1640776389)
+    (from-color (color-rgba 1 1 1 1))
+    (to-color (color-rgba 0 0 0 1))
+    (red-threshold 0)
+    (green-threshold 0)
+    (blue-threshold 0))
+
+# end of settings

@@ -1,0 +1,25 @@
+00:00:00.274904 VirtualBox GUI VM Selector Window 6.1.30 r148432 linux.amd64 (Dec 10 2021 19:46:42) release log
+00:00:00.274906 Log opened 2021-12-29T21:46:06.786375000Z
+00:00:00.274906 Build Type: release
+00:00:00.274907 OS Product: Linux
+00:00:00.274907 OS Release: 5.15.11-zen1-1-zen
+00:00:00.274908 OS Version: #1 ZEN SMP PREEMPT Wed, 22 Dec 2021 09:23:53 +0000
+00:00:00.274922 DMI Product Name: System Product Name
+00:00:00.274926 DMI Product Version: System Version
+00:00:00.274929 Firmware type: UEFI
+00:00:00.274989 Secure Boot: Disabled
+00:00:00.275009 Host RAM: 32072MB (31.3GB) total, 30693MB (29.9GB) available
+00:00:00.275011 Executable: /usr/lib/virtualbox/VirtualBox
+00:00:00.275011 Process ID: 1470
+00:00:00.275011 Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.275023 Qt version: 5.15.2
+00:00:00.288253 GUI: UIMediumEnumerator: Medium-enumeration started...
+00:00:00.536450 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 1 work area is actually resized to: 1936x40 x 932x1020
+00:00:00.536477 GUI: UIDesktopWidgetWatchdog::sltHandleHostScreenAvailableGeometryCalculated: Screen 0 work area is actually resized to: 2888x40 x 932x500
+00:00:00.547505 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:31.100226 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.482915 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:35.505741 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:36.087853 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:36.093400 GUI: UIMediumEnumerator: Medium-enumeration finished!
+00:00:42.159530 ERROR [COM]: aRC=NS_ERROR_UNEXPECTED (0x8000ffff) aIID={c0447716-ff5a-4795-b57a-ecd5fffa18a4} aComponent={SessionWrap} aText={The session is not locked (session state: Unlocked)}, preserve=false aResultDetail=0

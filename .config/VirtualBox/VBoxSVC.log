@@ -1,0 +1,73 @@
+00:00:00.000179 main     VirtualBox XPCOM Server 6.1.30 r148432 linux.amd64 (Dec 10 2021 19:46:42) release log
+00:00:00.000181 main     Log opened 2021-12-29T21:46:06.639461000Z
+00:00:00.000181 main     Build Type: release
+00:00:00.000182 main     OS Product: Linux
+00:00:00.000183 main     OS Release: 5.15.11-zen1-1-zen
+00:00:00.000183 main     OS Version: #1 ZEN SMP PREEMPT Wed, 22 Dec 2021 09:23:53 +0000
+00:00:00.000196 main     DMI Product Name: System Product Name
+00:00:00.000199 main     DMI Product Version: System Version
+00:00:00.000202 main     Firmware type: UEFI
+00:00:00.000245 main     Secure Boot: Disabled
+00:00:00.000263 main     Host RAM: 32072MB (31.3GB) total, 30708MB (29.9GB) available
+00:00:00.000264 main     Executable: /usr/lib/virtualbox/VBoxSVC
+00:00:00.000264 main     Process ID: 1493
+00:00:00.000265 main     Package type: LINUX_64BITS_GENERIC (OSE)
+00:00:00.001162 main     IPC socket path: /tmp/.vbox-sevencircle-ipc/ipcd
+00:00:00.103885 nspr-2   VirtualBox: object creation starts
+00:00:00.103947 nspr-2   Home directory: '/home/sevencircle/.config/VirtualBox'
+00:00:00.104053 nspr-2   Loading settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:00.104703 nspr-2   HostDnsMonitor: initializing
+00:00:00.104808 nspr-2   NAT: resolv.conf: nameserver 192.168.1.1
+00:00:00.104816 nspr-2   NAT: resolv.conf: FIXME: ignoring IPv6 zone %enp7s0
+00:00:00.104819 nspr-2   NAT: resolv.conf: nameserver fe80::4a29:52ff:fe72:4e57
+00:00:00.104829 nspr-2   HostDnsMonitor: updating information
+00:00:00.104845 nspr-2   HostDnsMonitor: old information
+00:00:00.104848 nspr-2     no server entries
+00:00:00.104850 nspr-2     no domain set
+00:00:00.104852 nspr-2     no search string entries
+00:00:00.104854 nspr-2   HostDnsMonitor: new information
+00:00:00.104856 nspr-2     server 1: 192.168.1.1
+00:00:00.104858 nspr-2     server 2: fe80::4a29:52ff:fe72:4e57%enp7s0
+00:00:00.104860 nspr-2     domain: lan
+00:00:00.104862 nspr-2     search string 1: lan
+00:00:00.106346 nspr-2   SUPR0QueryVTCaps -> VERR_SVM_DISABLED
+00:00:00.106526 nspr-2   VD: VDInit finished with VINF_SUCCESS
+00:00:00.106616 nspr-2   ERROR [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={027bc463-929c-40e8-bf16-fea557cd8e7e} aComponent={SystemPropertiesWrap} aText={Cannot determine default Guest Additions ISO location. Most likely they are not available}, preserve=false aResultDetail=0
+00:00:00.116591 nspr-2   Loading settings file "/home/sevencircle/VirtualBox VMs/DebianTitus/DebianTitus.vbox" with version "1.16-linux"
+00:00:00.117053 nspr-2   VirtualBox: object created
+00:00:00.420515 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.563850 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:00.564496 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.451850 nspr-3   Launched VM: 2550145360 pid: 1570 (0x622) frontend: GUI/Qt name: DebianTitus
+00:00:12.477314 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.478062 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.590311 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.590871 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.929398 nspr-2   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.930056 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.930267 nspr-5   ERROR [COM]: aRC=VBOX_E_OBJECT_NOT_FOUND (0x80bb0001) aIID={70401eef-c8e9-466b-9660-45cb3e9979e4} aComponent={ExtPackManagerWrap} aText={No extension pack by the name 'Oracle VM VirtualBox Extension Pack' was found}, preserve=false aResultDetail=0
+00:00:12.953929 nspr-5   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.954303 nspr-3   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:12.965885 nspr-3   ERROR [COM]: aRC=VBOX_E_IPRT_ERROR (0x80bb0005) aIID={85632c68-b5bb-4316-a900-5eb28d3413df} aComponent={SessionMachine} aText={Saved screenshot data is not available (VERR_NOT_SUPPORTED)}, preserve=false aResultDetail=-37
+00:00:30.970834 nspr-4   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:30.977835 nspr-5   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:35.350908 nspr-5   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:35.360692 nspr-4   Saving settings file "/home/sevencircle/VirtualBox VMs/DebianTitus/DebianTitus.vbox" with version "1.16-linux"
+00:00:35.392271 nspr-4   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:35.411517 nspr-4   Saving settings file "/home/sevencircle/VirtualBox VMs/DebianTitus/DebianTitus.vbox" with version "1.16-linux"
+00:00:35.930037 nspr-6   Saving settings file "/home/sevencircle/VirtualBox VMs/DebianTitus/DebianTitus.vbox" with version "1.16-linux"
+00:00:35.946332 nspr-4   Saving settings file "/home/sevencircle/VirtualBox VMs/DebianTitus/DebianTitus.vbox" with version "1.16-linux"
+00:00:35.986393 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:35.987064 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:36.443869 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:36.444602 nspr-6   WARNING [COM]: aRC=NS_ERROR_FAILURE (0x80004005) aIID={16ced992-5fdc-4aba-aff5-6a39bbd7c38b} aComponent={HostWrap} aText={VirtualBox is not currently allowed to access USB devices.  You can change this by adding your user to the 'vboxusers' group.  Please see the user manual for a more detailed explanation}, preserve=true  aResultDetail=0
+00:00:49.227715 nspr-7   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:50.513588 nspr-6   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:50.523892 nspr-4   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:50.530667 nspr-3   Saving settings file "/home/sevencircle/.config/VirtualBox/VirtualBox.xml" with version "1.12-linux"
+00:00:56.042362 main     VirtualBox: object deletion starts
+00:00:56.042589 main     HostDnsMonitor: shutting down ...
+00:00:56.046401 main     HostDnsMonitor: shut down
+00:00:56.420432 Watcher  ERROR [COM]: aRC=E_ACCESSDENIED (0x80070005) aIID={d0a0163f-e254-4e5b-a1f2-011cf991c38d} aComponent={VirtualBoxWrap} aText={The object is not ready}, preserve=false aResultDetail=0
+00:01:01.046987 main     {00007f479c0169f0} HostPowerServiceLinux::~HostPowerServiceLinux: RTThreadWait() for 5000 ms failed with VERR_TIMEOUT
+00:01:01.047246 main     VirtualBox: object deleted
