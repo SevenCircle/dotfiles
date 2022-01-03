@@ -191,6 +191,9 @@ youtube_channels[Hardware | BitWit]="https://www.youtube.com/c/BitWit/featured"
 youtube_channels[Hardware | RandomFrankP]="https://www.youtube.com/c/randomfrankp/featured"
 youtube_channels[Hardware | TechSource]="https://www.youtube.com/c/TechSource/featured"
 youtube_channels[Hardware | HardwareCanucks]="https://www.youtube.com/user/HardwareCanucks/featured"
+#Programming
+youtube_channels[Programming | FKnight]="https://www.youtube.com/user/FKnight/featured"
+youtube_channels[Programming | Mayuko]="https://www.youtube.com/c/hellomayuko/featured"
 #Keebs
 youtube_channels[Keebs | SwitchandClick]="https://www.youtube.com/c/SwitchandClickOfficial/featured"
 youtube_channels[Keebs | Glarses]="https://www.youtube.com/c/Glarses /featured"

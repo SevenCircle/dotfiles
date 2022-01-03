@@ -5,6 +5,7 @@ x-scheme-handler/https=brave-browser.desktop
 x-scheme-handler/about=brave-browser.desktop
 x-scheme-handler/unknown=brave-browser.desktop
 image/png=feh.desktop
+x-scheme-handler/discord-402572971681644545=discord-402572971681644545.desktop
 
 [Added Associations]
 image/png=feh.desktop;
