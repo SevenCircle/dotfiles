@@ -198,6 +198,7 @@ alias init="neofetch"
 alias code="codium"
 alias shit="fuck"
 alias clear="clear && init"
+alias configpush="sh $HOME/.config/scripts/backupgitfiles.sh"
 
 ### BASH INSULTER (works in zsh though) ###
 if [ -f /etc/bash.command-not-found ]; then
