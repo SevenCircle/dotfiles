@@ -189,15 +189,10 @@ alias dtoscopy='[ -d ~/.config ] || mkdir ~/.config && cp -Rf ~/.config ~/.confi
 # Backup contents of /etc/dtos to a backup folder in $HOME.
 alias dtosbackup='cp -Rf /etc/dtos ~/dtos-backup-$(date +%Y.%m.%d-%H.%M.%S)'
 
-#colorscript -e pacman
-#neofetch
-#neofetch | lolcat
-alias init="neofetch"
-
 #Other
 alias code="codium"
 alias shit="fuck"
-alias clear="clear && init"
+alias clear="clear && neofetch"
 alias configpush="sh $HOME/.config/scripts/backupgitfiles.sh"
 
 ### BASH INSULTER (works in zsh though) ###
@@ -209,4 +204,4 @@ eval $(thefuck --alias)
 eval "$(ssh-agent -s)"
 ssh-add ~/.ssh/id_ed25519    
 
-init
+neofetch
