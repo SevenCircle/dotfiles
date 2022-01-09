@@ -399,6 +399,7 @@ myKeys =
 
     -- KB_GROUP Run Prompt
         , ("M-r", spawn "dmenu_run -i -p \"Run: \"") -- Dmenu
+        , ("M-C-r", spawn "/home/sevencircle/.config/rofi/launchers/text/rofi.sh") -- Dmenu
 
     -- KB_GROUP Other Dmenu Prompts
     -- In Xmonad and many tiling window managers, M-p is the default keybinding to
@@ -425,6 +426,7 @@ myKeys =
         , ("M-S-t", spawn (myTerminal))
         , ("M-b", spawn (myBrowser))
         , ("M-M1-h", spawn (myTerminal ++ " -e btop"))
+        , ("M1-<Tab>", spawn ("/home/sevencircle/.config/rofi/launchers/text/window_switch.sh"))
 
     -- KB_GROUP Kill windows
         , ("M-q", kill1)     -- Kill the currently focused client
@@ -511,9 +513,9 @@ myKeys =
         , ("<XF86AudioPlay>", spawn "mocp --play")
         , ("<XF86AudioPrev>", spawn "mocp --previous")
         , ("<XF86AudioNext>", spawn "mocp --next")
-        , ("<XF86AudioMute>", spawn "amixer set Master toggle")
-        , ("<XF86AudioLowerVolume>", spawn "amixer set Master 5%- unmute")
-        , ("<XF86AudioRaiseVolume>", spawn "amixer set Master 5%+ unmute")
+        , ("<XF86AudioMute>", spawn "volumecontrol  mute")
+        , ("<XF86AudioLowerVolume>", spawn "volumecontrol down")
+        , ("<XF86AudioRaiseVolume>", spawn "volumecontrol up")
         , ("<XF86HomePage>", spawn "qutebrowser https://www.youtube.com/c/DistroTube")
         , ("<XF86Search>", spawn "dm-websearch")
         , ("<XF86Mail>", runOrRaise "thunderbird" (resource =? "thunderbird"))
