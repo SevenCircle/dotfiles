@@ -12,7 +12,7 @@ function is_mute {
 
 function send_notification {
     volume=`get_volume`
-    dunstify -a "changeVolume" -u low -i audio-volume-high -h string:x-dunst-stack-tag:$msgTag \
+    dunstify -a "changeVolume" -u low -i audio-volume-high-symbolic -h string:x-dunst-stack-tag:$msgTag \
     -h int:value:"$volume" "Volume: ${volume}%"
     canberra-gtk-play -i audio-volume-change -d "changeVolume"
 }
@@ -40,7 +40,7 @@ case $1 in
         volume=`get_volume`
         amixer -D pulse set Master 1+ toggle > /dev/null
         if is_mute ; then
-            dunstify -a "changeVolume" -u low -i audio-volume-muted -h string:x-dunst-stack-tag:$msgTag "Volume muted"
+            dunstify -a "changeVolume" -u low -i audio-volume-muted-symbolic -h string:x-dunst-stack-tag:$msgTag "Volume muted"
         else
             send_notification
         fi
