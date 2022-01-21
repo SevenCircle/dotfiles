@@ -381,6 +381,7 @@ myManageHook = composeAll
      , className =? "mpv"             --> doShift ( myWorkspaces !! 7 )
      , className =? "Gimp"            --> doShift ( myWorkspaces !! 8 )
      , className =? "VirtualBox Manager" --> doShift  ( myWorkspaces !! 4 )
+     , className =? "Virt-manager" --> doShift  ( myWorkspaces !! 4 )
      , className =? "Anydesk" --> doShift  ( myWorkspaces !! 4 )
      , (className =? "firefox" <&&> resource =? "Dialog") --> doFloat  -- Float Firefox Dialog
      , isFullscreen -->  doFullFloat
@@ -390,8 +391,8 @@ myManageHook = composeAll
 myKeys :: [(String, X ())]
 myKeys =
     -- KB_GROUP Xmonad
-        [ ("M-S-r", spawn "xmonad --recompile && xmonad --restart")         -- Restarts xmonad
-        , ("M-S-l", io exitSuccess)                   -- Quits xmonad
+        [ ("M-C-r", spawn "xmonad --recompile && xmonad --restart")         -- Restarts xmonad
+        , ("M-C-l", io exitSuccess)                   -- Quits xmonad
 
     -- KB_GROUP Get Help
         , ("M-S-/", spawn "~/.xmonad/xmonad_keys.sh") -- Get list of keybindings
@@ -399,7 +400,6 @@ myKeys =
 
     -- KB_GROUP Run Prompt
         , ("M-r", spawn "dmenu_run -i -p \"Run: \"") -- Dmenu
-        , ("M-C-r", spawn "/home/sevencircle/.config/rofi/launchers/text/rofi.sh") -- Dmenu
 
     -- KB_GROUP Other Dmenu Prompts
     -- In Xmonad and many tiling window managers, M-p is the default keybinding to
@@ -424,13 +424,17 @@ myKeys =
 
     -- KB_GROUP Useful programs to have a keybinding for launch
         , ("M-S-t", spawn (myTerminal))
+        , ("M-S-e", spawn ("pcmanfm"))
         , ("M-b", spawn (myBrowser))
         , ("M-M1-h", spawn (myTerminal ++ " -e btop"))
         , ("M1-<Tab>", spawn ("/home/sevencircle/.config/rofi/launchers/text/window_switch.sh"))
+        , ("M-S-r", spawn ("/home/sevencircle/.config/rofi/launchers/text/launcher.sh"))
+        , ("M-S-l", spawn ("betterlockscreen --lock"))
 
     -- KB_GROUP Kill windows
         , ("M-q", kill1)     -- Kill the currently focused client
         , ("M-S-q", killAll)   -- Kill all windows on current workspace
+        , ("M-x", spawn ("xkill"))   -- Kill all windows on current workspace
 
     -- KB_GROUP Workspaces
         , ("M-.", nextScreen)  -- Switch focus to next monitor
@@ -482,11 +486,11 @@ myKeys =
 
     -- KB_GROUP Sublayouts
     -- This is used to push windows to tabbed sublayouts, or pull them out of it.
-        , ("M-C-h", sendMessage $ pullGroup L)
-        , ("M-C-l", sendMessage $ pullGroup R)
-        , ("M-C-k", sendMessage $ pullGroup U)
-        , ("M-C-j", sendMessage $ pullGroup D)
-        , ("M-C-m", withFocused (sendMessage . MergeAll))
+        -- , ("M-C-h", sendMessage $ pullGroup L)
+        -- , ("M-C-l", sendMessage $ pullGroup R)
+        -- , ("M-C-k", sendMessage $ pullGroup U)
+        -- , ("M-C-j", sendMessage $ pullGroup D)
+        -- , ("M-C-m", withFocused (sendMessage . MergeAll))
         -- , ("M-C-u", withFocused (sendMessage . UnMerge))
         , ("M-C-/", withFocused (sendMessage . UnMergeAll))
         , ("M-C-.", onGroup W.focusUp')    -- Switch focus to next tab
